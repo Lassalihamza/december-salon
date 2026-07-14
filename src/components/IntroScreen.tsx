@@ -194,7 +194,7 @@ export default function IntroScreen({ isLoading, onComplete }: IntroScreenProps)
               transition={{ delay: 1.0, duration: 1.2 }}
               className="text-[9px] uppercase tracking-[0.3em] text-gold-start mt-6 font-light select-none font-sans text-center"
             >
-              Est. 2024 &bull; Luxury Sanctuary
+              Est. 2026 &bull; Luxury Sanctuary
             </motion.div>
           </div>
         </motion.div>
