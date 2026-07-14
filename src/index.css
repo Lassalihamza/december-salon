@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-gold-start: #C9A15E;
+  --color-gold-end: #A88145;
+  --color-deep-bronze: #5A1820; /* Primary Burgundy */
+  --color-burgundy-light: #6E1F2A; /* Lighter Burgundy Accent */
+  --color-champagne: #F4ECE3; /* Warm Ivory / Cream */
+  --color-ivory-white: #FFFCF9; /* Very Soft Light Ivory */
+  --color-charcoal-text: #201314; /* Warm Deep Wine-tinted Black */
+  --color-blush-accent: #EFE4D6; /* Very soft cream contrast accent */
+}
+
+/* Custom quiet luxury scrollbar and selection */
+::selection {
+  background-color: var(--color-gold-start);
+  color: var(--color-ivory-white);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-champagne);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-start);
+  border-radius: 3px;
+}
+
+/* Custom CSS animations for vanilla fallback or refined details */
+@keyframes line-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-line-draw {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: line-draw 2.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+

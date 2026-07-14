@@ -1,0 +1,6 @@
+{
+  "name": "LIALY AZRA Beauty Salon",
+  "description": "A premium quiet luxury introduction and immersive salon website for LIALY AZRA featuring gold-line vector silhouette drawing animation and elegant reveals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
